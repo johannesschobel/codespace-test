@@ -1,0 +1,13 @@
+{
+  "name": "Codespace Test",
+  "build": {
+    "dockerfile": "dockerfile",
+    "args": {
+      "VARIANT": "latest"
+    }
+  },
+  "forwardPorts": [4200],
+  "postCreateCommand": "npm i",
+  "settings": {},
+  "extensions": []
+}
